@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../static/fonts/open-sans-v18-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../static/fonts/open-sans-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../static/fonts/open-sans-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../static/fonts/open-sans-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../static/fonts/open-sans-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../static/fonts/open-sans-v18-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #161E2D;
+  text-align: center;
+  color: #FFFFFF;
+  background: url("https://hrw2mk5q2m.us-east-1.awsapprunner.com/static/background.svg") #161E2D no-repeat;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+  color: #FFFFFF;
+  /* margin-bottom: 5%; */
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+h1 {
+  height: 5%;
+  font-size: 44px;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin-top: -2%;
+  line-height: 56px;
+}
+
+.flex-container {
+  position: relative;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 7%;
+  margin-bottom: 10%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.column {
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 2%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.icon {
+  height: 80%;
+  margin: 1%;
+}
+
+.subtext {
+  color: #FFFFFF;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 17px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+a {
+  color: #527FFF;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+
+html, body {
+  font-family: "Open Sans";
+  margin:0;
+  padding:0;
+}
+
+.banner {
+	left:0;
+	width:100%;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.apprunner_icon {
+	width: 15%;
+	margin-top: 19%;
+	margin-bottom: 6%;
+	max-height: 200px;
+	min-width: 150px;
+}
+
+@media only screen and (max-width: 875px) {
+  body { background: url("https://hrw2mk5q2m.us-east-1.awsapprunner.com/static/background-mobile.svg") #161E2D no-repeat;}
+  .apprunner_icon {	min-width: 100px; }
+  .icon { height: 60%; margin: 3%;}
+  .flex-container {margin-top: 20%; margin-bottom: 30%;}
+}
+
+@media only screen and (min-width: 2000px) {
+  .apprunner_icon {	margin-top: 13%; }
+}

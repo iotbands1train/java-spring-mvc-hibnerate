@@ -1,0 +1,14 @@
+springmvc\dao\PersonDAO.class
+springmvc\controller\PersonController.class
+springmvc\dao\PersonDAOImpl.class
+springmvc\dao\RandomAdmin.class
+springmvc\service\PersonServiceImpl.class
+springmvc\service\LoggingAspect.class
+springmvc\model\Admin.class
+springmvc\service\AdminServiceImpl.class
+springmvc\dao\AdminDAOImpl.class
+springmvc\model\Person.class
+springmvc\dao\AdminDAO.class
+springmvc\service\AdminService.class
+springmvc\service\PersonService.class
+springmvc\dao\RandomPerson.class
